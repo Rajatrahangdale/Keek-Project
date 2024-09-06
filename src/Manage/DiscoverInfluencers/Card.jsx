@@ -149,6 +149,34 @@ const Card = ({ setCampaignVisible, setShowLikedDiv }) => {
       liked: false,
       button: "Invite",
     },
+    {
+      name: "Gautam Sachdeva",
+      verified: true,
+      img: InfluencerImg,
+      star: [1, 2, 3, 4],
+      review: "30 reviews",
+      platforms: [
+        { name: "Instagram", img: Instagram },
+        { name: "Facebook", img: FaceBook },
+        { name: "Youtube", img: YouTube },
+      ],
+      liked: false,
+      button: "Invite",
+    },
+    {
+      name: "Gautam Sachdeva",
+      verified: true,
+      img: InfluencerImg,
+      star: [1, 2, 3, 4],
+      review: "30 reviews",
+      platforms: [
+        { name: "Instagram", img: Instagram },
+        { name: "Facebook", img: FaceBook },
+        { name: "Youtube", img: YouTube },
+      ],
+      liked: false,
+      button: "Invite",
+    },
   ]);
 
   const handleLikeToggle = (index) => {
