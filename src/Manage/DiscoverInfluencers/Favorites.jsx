@@ -119,9 +119,7 @@ const Favorites = ({
                   />
                 ) : (
                   <>
-                    {item.name}
-                    <span>{item.influencers?.length}</span>{" "}
-                    {/* To be removed in future */}
+                    {item.name}                   
                     <button
                       onClick={() =>
                         setOpenIndex((prev) => (prev === index ? null : index))
