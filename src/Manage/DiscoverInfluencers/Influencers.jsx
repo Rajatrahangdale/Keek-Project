@@ -13,7 +13,7 @@ const Influencers = () => {
   const expanded = contextState.expanded;
   const [filterVisible, setFilterVisible] = useState(false);
   const [campaignVisible, setCampaignVisible] = useState(false);
-  const [showLikedDiv, setShowLikedDiv] = useState(true );
+  const [showLikedDiv, setShowLikedDiv] = useState(false);
   const [favorites, setFavorites] = useState([]);
   const timeoutRef = useRef(null);
 
