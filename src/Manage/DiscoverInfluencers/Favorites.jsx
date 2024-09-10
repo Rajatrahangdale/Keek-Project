@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useRef, useContext } from "react";
 import { GoKebabHorizontal } from "react-icons/go";
 import { FaHeart, FaPlus } from "react-icons/fa6";

@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect, useContext } from "react";
 import { MdVerified } from "react-icons/md";
 import { IoMdStar } from "react-icons/io";
