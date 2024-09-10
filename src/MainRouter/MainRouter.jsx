@@ -11,7 +11,7 @@ import RejectedPage from "../Manage/CampaignManagement/ManageCampaign/ManageCamp
 import AIRecommendPage from "../Manage/CampaignManagement/ManageCampaign/ManageCampaignPages/AIRecommendPage";
 import Influencers from "../Manage/DiscoverInfluencers/Influencers";
 import SavedList from "../Manage/DiscoverInfluencers/SavedList";
-import FavouritesList from "../Manage/DiscoverInfluencers/FavouritesList";
+import SavedListCards from "../Manage/DiscoverInfluencers/SavedListCards";
 
 const MainRouter = () => {
   return (
@@ -91,7 +91,7 @@ const MainRouter = () => {
         <Route path="/PastCampaign" element={<PastCampaign />} />
         <Route path="/DraftCampaign" element={<DraftCampaign />} />
         <Route path="/savedlist" element={<SavedList/>} />
-        <Route path="/favouriteslist" element={<FavouritesList />} />
+        <Route path="/savedlist/:name" element={<SavedListCards/>} />
       </Routes>
     </>
   );
